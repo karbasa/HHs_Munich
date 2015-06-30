@@ -1,0 +1,284 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+
+.navigation {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    opacity: 0.9;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    float: right;
+    text-align: right;
+    margin-right: 2rem;
+    display: inline-block;
+    padding: 1px;
+}
+
+.navigation a {
+    height: 10px;
+    width: 10px;
+    text-decoration: none;
+}
+
+.welcome h4 {
+    font-style: 
+}
+
+/*Welcome words*/
+
+.welcome {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    background: url("pic1.jpg") no-repeat bottom center scroll;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+
+}
+
+@media(min-width:768px) {
+    .welcome {
+        height: 100%;
+        padding: 0;
+    }
+
+.welcome .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.welcome .intro-body a {
+    color: black;
+}  
+
+.welcome h1 {
+    font-family: "Palatino Linotype"-Bold, "Book Antiqua", Palatino, serif;
+    color: #FFFFFF;
+    font-size: 4rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.welcome p {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    line-height: 54px;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0px;
+}
+
+#special {
+    font-family: Arial;
+    font-size: 1rem;
+    color: white;
+} 
+
+.button {
+height: 60px;
+width: 200px;
+background: #F8E71C;
+border-radius: 6px;
+margin: auto;
+border: 30px;
+text-align: center;
+}
+
+
+.button h3 {
+font-family: AvenirNext-Bold;
+font-size: 1.3rem;
+color: black;
+line-height: 61px;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #00FF6A;
+}
+
+/*Bereich 2 about HHMuc*/
+/*Three round icons as the intro*/
+
+.HHMuc_intro {
+    background-color: #F8E71C;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.HHMuc_intro p {
+    display: inline-block;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0px 20px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.HHMuc_intro a {
+    text-decoration: none;
+} 
+
+.HHMuc_intro h3 {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+
+.grid_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+
+}
+
+.grid_container > div {
+    width: 100%;
+    text-align: center;
+}
+
+
+/*people*/
+
+.people_intro {
+    background-color: black;
+}
+
+.people_intro p {
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.grid_container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin-top:47px;
+}
+
+.grid_container2 > div {
+    padding:1.5rem;
+    display: inline-block;
+}
+
+.grid_container2 {
+    margin: 0px;
+    display: block;
+}
+
+
+
+
+
+/*Footer*/
+
+
+.footer {
+    background-color: #F8E71C;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.footer li {
+    float: right;
+    text-align: right;
+    margin-right: 2rem;
+    display: inline-block;
+    padding: 1px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.footer a {
+    height: 10px;
+    width: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+#cd-timeline {
+  position: relative;
+  padding: 2em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#cd-timeline::before {
+  /* this is the vertical line */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #d7e4ed;
+}
+
+.cssanimations .cd-timeline-img.is-hidden {
+  visibility: hidden;
+}
+.cssanimations .cd-timeline-img.bounce-in {
+  visibility: visible;
+  animation: cd-bounce-1 0.6s;
+}
+ 
+@keyframes cd-bounce-1 {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+ 
+  60% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+ 
+  100% {
+    transform: scale(1);
+  }
+}
